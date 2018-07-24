@@ -157,7 +157,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #profile .portrate {
-	background-image: url(../img/jennifer-doe.jpg);
+	background-image: url(../img/personalpic2);
 	width: 125px;
 	margin: 0 auto;
 	height: 125px;
@@ -253,7 +253,7 @@ ul#navigation li .icon {
 
 .social-icons {
 	position: absolute;
-	bottom: 0;
+	bottom: 20px;
 	left: 0;
 	width: 100%;
 	background: #202020;
@@ -271,7 +271,7 @@ ul#navigation li .icon {
 
 .social-icons li {
 	float: left;
-	width: 33%;
+	width: 25%;
 	padding: 10px;
 	text-align: center;
 }
@@ -287,6 +287,28 @@ ul#navigation li .icon {
 .social-icons i {
 	font-size: 16px;
 }
+
+.copyright {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #303030;
+	border-top: 5px solid #1A1A1A;
+	width: 250px;
+	z-index: 2;
+	height: 20px;
+}
+
+.copyright h6 {
+	text-align: center;
+	background: #303030;
+	font-size: 12px;
+	font-weight: 300;
+	color: #aaa;
+	margin: 0px 0 10px 0;
+}
+
 
 /* page specifics
  **************************************************/

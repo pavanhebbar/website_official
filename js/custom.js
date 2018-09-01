@@ -236,7 +236,7 @@ $(document).ready(function(){
 		$car.carouFredSel({
 			circular: true,
 			infinite: true,
-			width: '100%',
+			width: '118%',
 			height: 250,
 			items: {
 				visible:3,

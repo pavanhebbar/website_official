@@ -1,59 +1,59 @@
 ul#navigation li.external:hover .fa, ul#navigation li.currentmenu .fa{
-	color: #03cc85;
+	color: #ec46ef;
 }
 .ul-boxed li {
-	border-left-color:#03cc85;
+	border-left-color:#ec46ef;
 }
 ul.ul-card li .dy .year {
-	background-color: #03cc85;
+	background-color: #ec46ef;
 }
 ul.ul-dates div.dates span {
-	background-color: #03cc85;
+	background-color: #ec46ef;
 }
 ul.timeline li .date {
-	background: #03cc85;
+	background: #ec46ef;
 }
 ul.timeline li .data {
-	border-left-color: #03cc85;
+	border-left-color: #ec46ef;
 }
 .ul-withdetails li .imageoverlay {
-	background: #03cc85;
+	background: #ec46ef;
 }
 .cd-active.cd-dropdown > span {
-	color: #03cc85;
+	color: #ec46ef;
 }
 .cd-active.cd-dropdown ul li span:hover {
-	background: #03cc85;
+	background: #ec46ef;
 }
 .pitems .pubmain .pubassets {
-	border-top-color:#03cc85; 
+	border-top-color:#ec46ef; 
 }
 .pitems .pubmain .pubassets a:hover,.pitems .pubmain .pubassets a:focus,.pitems .pubmain .pubassets a.pubcollapse {
-	background: #03cc85;
+	background: #ec46ef;
 }
 .contact-office .icon-huge, .contact-lab .icon-huge {
-	color: #03cc85;
+	color: #ec46ef;
 }
 
 /* socpndary color 
 **************************************************/
 ul.ul-card li .dy .degree {
-	background-color: #03bb7a;
+	background-color: #ef65f2;
 }
 ul.ul-dates div.dates span:last-child {
-	background-color: #03bb7a;
+	background-color: #ef65f2;
 }
 ul.timeline li.open .circle {
-	background-color: #03bb7a;
+	background-color: #ef65f2;
 }
 ul.timeline li.open .data {
-	border-color: #03bb7a;
+	border-color: #ef65f2;
 }
 #labp-heads-wrap {
-	background-color: #03bb7a;
+	background-color: #ef65f2;
 }
 #labp-heads-wrap:after{
-	border-top-color: #03bb7a;
+	border-top-color: #ef65f2;
 }
 
 

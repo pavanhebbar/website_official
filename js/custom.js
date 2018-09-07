@@ -265,7 +265,7 @@ $(document).ready(function(){
 			( new TimelineLite() )
 				.set(gotop2,{ left:"100%",zIndex:self.topz})
 				.set(gotop3,{zIndex:maxz+1})
-				.to(gotop2,0.4,{left:"15%"})
+				.to(gotop2,0.4,{left:"0"})
 				.to(gotop3,0.3,{ left:0 , onComplete:function(){gotop3.removeClass('currentpage');} },"-=0.2");
 		},
 
@@ -279,7 +279,7 @@ $(document).ready(function(){
 
 			(new TimelineLite())
 				.set(gotop2,{zIndex:self.topz-1})
-				.to(gotop2,0.4,{left:"15%"})
+				.to(gotop2,0.4,{left:"0"})
 				.to(gotop1,0.5,
 					{
 						left:"100%",

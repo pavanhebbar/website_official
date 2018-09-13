@@ -575,11 +575,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                     </div>
                                                 </div>
                                                 <div class="details">
-														<p>The detection of GW170817 triggered a new era of multi-messenger astronomy. The analysis of gravitational wave, and the subsequent electromagnetic follow-up confirmed the association between binary neutron star (BNS) merger and short gamma ray bursts (GRB) and provided evidence for the BNS mergers to be the origin of r-process elements</p>
-														<p>In this era of transient astronomy it is important to have all-sky monitors that could watch the skies at all times. Due to the large field of view of these all sky monitors, localizing the source after detection could be confusing. I worked with <a href="http://www.phy.iitb.ac.in/physics/en/content/varun-bhalerao">Prof. Varun Bhalerao</a> to develop a python package that could be used to localize the GRB and GW detections in such instruments on satellites orbiting the earth. Such a tool would be crucial for detectors like AstroSAT CZTI and future missions like LISA. In another project under Prof. Bhalerao, I looked for ways to automatize the search for GRBs in AstroSAT CZTI instrument.</p>
+														<p>The detection of GW170817 triggered a new era of multi-messenger astronomy. The analysis of gravitational wave, and the subsequent electromagnetic follow-up confirmed the association between binary neutron star (BNS) merger and short gamma ray bursts (GRB) and provided evidence for the BNS mergers to be the origin of r-process elements.</p>
+														<p>In this era of transient astronomy it is important to have all-sky monitors that could watch the skies at all times. Due to the large field of view of these all sky monitors, localizing the source after detection could be confusing. I worked with <a href="http://www.phy.iitb.ac.in/physics/en/content/varun-bhalerao">Prof. Varun Bhalerao</a> to develop a python package that could be used to localize the GRB and GW detections in such instruments on satellites orbiting the earth. Such a tool would be crucial for detectors like AstroSAT CZTI and future missions like LISA. In another project under Prof. Bhalerao, I looked for ways to automatize the search for GRBs in AstroSAT CZTI instrument. In collaboration with the <a href="http://growth.caltech.edu/">GROWTH, Caltech</a> group, I had also prepared a <a href="https://www.youtube.com/watch?v=fs5Be9HItp0">video</a> depicting the electromagnetic follow-up of GW170817, which was used as a part of Caltech press release on the BNS merger event.</p>
 												</div>
                                             </li>
-                                           <!-- <li>
+                                           <!-- <li
                                                 <div class="row">
                                                     <div class="col-sm-6 col-md-3">
                                                         <div class="image">
@@ -1211,7 +1211,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <ul class="list-unstyled">
                                             <li>
                                                 <strong><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;</strong>
-                                                <span>office: +1 (780) 935-2798</span>
+                                                <span>Mob: +1 (780) 935-2798</span>
                                             </li>
                                             <li>
                                                 <strong><i class="fas fa-envelope"></i>&nbsp;&nbsp;</strong>
@@ -1236,8 +1236,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                         </div>
                     </div>
-                    <!--<div class="pagecontents">
-                        <div class="section fixedbg parallax contact-office">
+                    <div class="pagecontents">
+                        <div id="map"></div>
+                        <!--<div class="section fixedbg parallax contact-office">
                             <div class="section-container">
                                 <div class="row">
                                     <div class="col-md-7 col-md-offset-1">
@@ -1278,8 +1279,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>-->
+                        </div>-->
+                    </div>
                     
                 </div>
                 
@@ -1287,6 +1288,102 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             </div>
         </div>
+        <script>
+                function initMap() {
+                // Styles a map in night mode.
+                var office = {lat: 53.5282, lng: -113.5257};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  center: office,
+                  zoom: 14,
+                  styles: [
+                    {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+                    {
+                      featureType: 'administrative.locality',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#d59563'}]
+                    },
+                    {
+                      featureType: 'poi',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#d59563'}]
+                    },
+                    {
+                      featureType: 'poi.park',
+                      elementType: 'geometry',
+                      stylers: [{color: '#263c3f'}]
+                    },
+                    {
+                      featureType: 'poi.park',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#6b9a76'}]
+                    },
+                    {
+                      featureType: 'road',
+                      elementType: 'geometry',
+                      stylers: [{color: '#38414e'}]
+                    },
+                    {
+                      featureType: 'road',
+                      elementType: 'geometry.stroke',
+                      stylers: [{color: '#212a37'}]
+                    },
+                    {
+                      featureType: 'road',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#9ca5b3'}]
+                    },
+                    {
+                      featureType: 'road.highway',
+                      elementType: 'geometry',
+                      stylers: [{color: '#746855'}]
+                    },
+                    {
+                      featureType: 'road.highway',
+                      elementType: 'geometry.stroke',
+                      stylers: [{color: '#1f2835'}]
+                    },
+                    {
+                      featureType: 'road.highway',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#f3d19c'}]
+                    },
+                    {
+                      featureType: 'transit',
+                      elementType: 'geometry',
+                      stylers: [{color: '#2f3948'}]
+                    },
+                    {
+                      featureType: 'transit.station',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#d59563'}]
+                    },
+                    {
+                      featureType: 'water',
+                      elementType: 'geometry',
+                      stylers: [{color: '#17263c'}]
+                    },
+                    {
+                      featureType: 'water',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#515c6d'}]
+                    },
+                    {
+                      featureType: 'water',
+                      elementType: 'labels.text.stroke',
+                      stylers: [{color: '#17263c'}]
+                    }
+                  ]
+                });
+                var marker = new google.maps.Marker( {
+                    position: office,
+                    label: 'A',
+                    map: map,
+                });
+              }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5DWvcPetghnnzKeauoQaABsSMGDV3_T0&callback=initMap" async defer></script>
     </body>
 </html>
 
